@@ -1,95 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-        <head>
-                <link rel="stylesheet" href="styles.css">
-                <meta charset="utf-8">
-                <meta name="viewport" content="width=device-width initial-scale=1">
+      <head>
+            <link rel="stylesheet" href="styles.css">
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width initial-scale=1">
 
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
-                <link rel="preconnect" href="https://fonts.googleapis.com">
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-                <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400..900&family=Playfair+Display:wght@400..900&display=swap" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 
-                <title>Sunnydays UGC</title>
-        </head>
-
-
-        <body>
-
-                <main>
+            <title>Sunnydays UGC Contact</title>
+      </head>
 
 
-                        <header>
+      <body class="contact-body">
 
-                                <nav class="nav-bar">
-
-                                        <ul class="nav-list">
-
-                                                <li class="nav-list-mains">
-                                                        <a class="nav-link-home"></a>
-                                                </li>
-
-                                        </ul>
-
-                                        <ul class="nav-list-socials">
-
-                                                <li class="nav-list-socials-item">
-                                                        <a class="nav-link-social">
-                                                                <i class="fa-brands fa-instagram"></i>
-                                                        </a>
-                                                </li> 
-
-                                                <li class="nav-list-socials-item">
-                                                        <a class="nav-link-social">
-                                                                <i class="fa-brands fa-tiktok"></i>
-                                                        </a>
-                                                </li>   
-
-                                        </ul>
-
-                                        
-                                </nav>
-
-                        </header>
+            <main>
 
 
-                        <section class="contact-section">
+                  <header>
 
-                                <div class="contact-text">
-                                        <h1>We should get in touch</h1>
-                                        <img>
-                                        <h2>Lets builb something beautiful together</h2>
-                                </div>
+                              <nav class="nav-bar">
 
-                                <form class="contact-form" id="contact-form" action="#" method='POST'>
+                                    <ul class="list nav-list">
 
-                                        <label></label>
-                                        <input>
+                                          <li class="nav-list-mains">
+                                                      <a class="link nav-link-home" href="index.html">Sunnydays UGC</a>
+                                          </li>
 
-                                        <label></label>
-                                        <input>
+                                    </ul>
 
-                                        <label></label>
-                                        <input>
+                                    <ul class="list nav-list-socials">
 
-                                        <label></label>
-                                        <input>
+                                          <li class="nav-list-socials-item">
+                                                      <a class="link nav-link-social">
+                                                            <i class="fa-brands fa-instagram"></i>
+                                                      </a>
+                                          </li> 
 
-                                        <label></label>
-                                        <textarea></textarea>
+                                          <li class="nav-list-socials-item">
+                                                      <a class="link nav-link-social">
+                                                            <i class="fa-brands fa-tiktok"></i>
+                                                      </a>
+                                          </li>   
 
-                                        <button class="btn btn-contact-form" type="submit">Send</button>
+                                    </ul>
 
-                                </form>
+                                    
+                              </nav>
 
-
-                        </section>
-
-
-                </main>
+                  </header>
 
 
-        </body>
+                  <section class="contact-section">
+
+                              <div class="contact-text">
+                                    <h1>We should get in touch</h1>
+                                    <img>
+                                    <h2>Lets builb something beautiful together</h2>
+                              </div>
+
+                              <form class="contact-form" id="contact-form" action="#" method='POST'>
+
+                                    <label class="contact-form-label" for="brandName" name="brandName">Brand Name:</label>
+                                    <input class="contact-form-input" type="text" id="brandName" name="brandName">
+
+                                    <label class="contact-form-label" for="name" name="name">Name:</label>
+                                    <input class="contact-form-input" type="text" id="name" name="name">
+
+                                    <label class="contact-form-label" for="email" name="email">Email:</label>
+                                    <input class="contact-form-input" type="email" id="email" name="email">
+
+                                    <label class="contact-form-label" for="message" name="message">Message:</label>
+                                    <textarea class="contact-form-textarea" type="text" id="message" name="message" required></textarea>
+
+                                    <button class="btn btn-contact-form" type="submit">Send</button>
+
+                              </form>
+
+
+                  </section>
+
+
+            </main>
+
+
+      </body>
 
 </html>
