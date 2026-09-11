@@ -20,13 +20,14 @@
 body {
         margin: 0;
         padding: 0;
-        font-family: "Playfair Display", serif;
+        font-family: var(--font-motserrat);
         /*font-family: "Montserrat", sans-serif;  
         font-family: "Dancing Script", cursive;
         */
         color: var(--clay);
         padding-top: var(--nav-height);
         text-align: center;
+        min-height: 100vh;
 }
 
 .home-body {
@@ -49,18 +50,24 @@ img {
         object-fit: cover;
 }
 
+.contact-img {
+        max-width: 17em;
+        margin: 0 auto;
+}
+
 
 
 /*======TYPOGRAPHY======*/
 
 .logo {
         font-family: var(--font-dancing-script);
-        font-size: 2.25rem;
+        font-size: 2.5rem;
         font-weight: 400;
 }
 
-.nav-link-contact {
+.nav-contact {
         font-family: var(--font-dancing-script);
+        color: var(--blue);
 }
 
 h1 {
@@ -69,7 +76,17 @@ h1 {
        font-size: 2.5rem;
        max-width: 50ch;
        justify-self: center;
+       text-shadow: 0 2px 4px rgba(0, 0, 0, 0.22);
 } 
+
+.contact-h1 {
+        font-size: 2rem;
+        font-family: var(--font-playfair-display);
+}
+
+.contact-h2 {
+        margin: 1em auto;
+}
 
 .hero-text {
         font-size: 1.25rem;
@@ -87,6 +104,7 @@ h2 {
 
 footer > h2 {
         font-size: 1.5rem;
+        color: var(--blue);
 }
 
 .about-section {
@@ -202,6 +220,7 @@ section {
 .btn-footer-link {
         padding: .5em 1.5em;
         border-radius: 15px;
+        font-size: .8rem;
 }
 
 .btn:hover,
@@ -215,10 +234,35 @@ section {
 .contact-form {
         display: flex;
         flex-direction: column;
-        gap: .25em;
+        gap: .75em;
         text-align: left;
 }
 
+.contact-form-label {
+        font-family: var(--font-playfair-display);
+        cursor: pointer;
+}
+
+.contact-form-input,
+.contact-form-textarea {
+        cursor: pointer;
+        font-family: inherit;
+        border:none;
+        box-shadow: 4px 4px var(--clay);
+}
+
+.contact-form-input:hover,
+.contact-form-input:focus,
+.contact-form-textarea:hover,
+.contact-form-textarea:focus {
+        border:1px solid var(--yellow);
+        outline: none;
+}
+
+.contact-form-textarea {
+        resize: none;
+        height: 6em;
+}
 
 
 /*  Footer Layout  */
@@ -253,6 +297,7 @@ footer {
         .hero-section-text-container {
                 grid-column: 2 / 3;
         }
+
 }
 
 @media (min-width: 37em) {
@@ -275,15 +320,6 @@ footer {
                 justify-self: center;
                 margin: 0 2em 0 0;
         }
-        /*.nav-bar,
-        .nav-list-links,
-        .nav-list-socials {
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-                align-items: center;
-                gap: 3em;
-        }   */
 
         .nav-contact {
                 margin-left: auto;
@@ -316,12 +352,71 @@ footer {
                 grid-column: 2 / 3;
                 grid-row: 2 / 3;
         }
+
+        .contact-section {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 1.5em;
+                max-width: 70em;
+                margin: 3em auto 0 auto;
+        }
+
+        .contact-text {
+                grid-column: 2 / 3;
+        }
+
+        .contact-form {
+                text-align: left;
+                border:2px solid var(--clay);
+                padding: 2em;
+                grid-column: 1 / 2;
+                grid-row: 1 / 2;
+        }
+
+        
 }
+
+
+@media (min-width: 40em) {
+        .hero-section {
+                background-repeat: no-repeat;
+                background-position: 60% 20%;
+        }
+}
+
+
+
 
 
 @media (min-width: 62em) {
 
         .nav-bar {
                 padding: 1em 6em;
+        }
+
+        .contact-section {
+                margin: 6em auto 0 auto;
+                gap: 6em;
+        }
+
+        .contact-form {
+                padding: 3em;
+        }
+
+        .contact-img {
+                max-width: 25em;
+        }
+}
+
+@media (min-width: 75em) {
+        .hero-section {
+                background-repeat: no-repeat;
+                background-position: 70% 23%;
+        }
+}
+
+@media (min-width: 95em) {
+        .contact-section {
+                gap: 9em;
         }
 }

@@ -19,35 +19,19 @@
       "order": 2
     },
     {
-      "id": "f7c75181-a033-4f26-ac59-3829226ce96b",
-      "title": "border on my form with shadow",
-      "done": false,
-      "createdAt": 1789089463620,
-      "updatedAt": 1789089463620,
-      "order": 3
-    },
-    {
-      "id": "2dc6d013-5175-4a47-816c-010f65076962",
-      "title": "display flex contact page  form left side",
-      "done": false,
-      "createdAt": 1789089491533,
-      "updatedAt": 1789089491533,
-      "order": 4
-    },
-    {
       "id": "0f24946f-1156-4fe6-b5a2-43bfea52e2f8",
       "title": "adjust form css and defaults,  and focus/hovers",
-      "done": false,
+      "done": true,
       "createdAt": 1789089518068,
-      "updatedAt": 1789089518068,
+      "updatedAt": 1789137524048,
       "order": 5
     },
     {
       "id": "d4814ae9-80e2-4fae-9ff1-472d3bad9c0e",
       "title": "change contacts typography",
-      "done": false,
+      "done": true,
       "createdAt": 1789089595854,
-      "updatedAt": 1789089595854,
+      "updatedAt": 1789137539327,
       "order": 6
     },
     {
@@ -57,6 +41,30 @@
       "createdAt": 1789089607141,
       "updatedAt": 1789089607141,
       "order": 7
+    },
+    {
+      "id": "93ad08f6-8e87-4ebc-a8b6-47e80a0e43fc",
+      "title": "Do i like the blue for nav bar  or use clay?",
+      "done": false,
+      "createdAt": 1789137574701,
+      "updatedAt": 1789137574701,
+      "order": 8
+    },
+    {
+      "id": "c9a619fa-beda-4f35-b273-92aee3ba17c9",
+      "title": "should footer colors match nav bar?  should it all be 1 color?",
+      "done": false,
+      "createdAt": 1789137590940,
+      "updatedAt": 1789137590940,
+      "order": 9
+    },
+    {
+      "id": "74fad022-a357-4a22-8df6-e2844aad1630",
+      "title": "add shadow to hero text desktop",
+      "done": true,
+      "createdAt": 1789137622597,
+      "updatedAt": 1789138582652,
+      "order": 10
     }
   ]
 }
