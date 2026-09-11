@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "tasks": [
+    {
+      "id": "54f74fb4-d406-43c7-9dec-632fdb6e487c",
+      "title": "flex row nav bar",
+      "done": true,
+      "note": "flex it in media query to row and get it to evenly span the nav bar",
+      "createdAt": 1789084944571,
+      "updatedAt": 1789089437151,
+      "order": 1
+    },
+    {
+      "id": "4cb787e1-4f12-4ffd-b71c-e0b879acf926",
+      "title": "change my border bottoms to <hr> tags??",
+      "done": true,
+      "createdAt": 1789084982555,
+      "updatedAt": 1789089444151,
+      "order": 2
+    },
+    {
+      "id": "f7c75181-a033-4f26-ac59-3829226ce96b",
+      "title": "border on my form with shadow",
+      "done": false,
+      "createdAt": 1789089463620,
+      "updatedAt": 1789089463620,
+      "order": 3
+    },
+    {
+      "id": "2dc6d013-5175-4a47-816c-010f65076962",
+      "title": "display flex contact page  form left side",
+      "done": false,
+      "createdAt": 1789089491533,
+      "updatedAt": 1789089491533,
+      "order": 4
+    },
+    {
+      "id": "0f24946f-1156-4fe6-b5a2-43bfea52e2f8",
+      "title": "adjust form css and defaults,  and focus/hovers",
+      "done": false,
+      "createdAt": 1789089518068,
+      "updatedAt": 1789089518068,
+      "order": 5
+    },
+    {
+      "id": "d4814ae9-80e2-4fae-9ff1-472d3bad9c0e",
+      "title": "change contacts typography",
+      "done": false,
+      "createdAt": 1789089595854,
+      "updatedAt": 1789089595854,
+      "order": 6
+    },
+    {
+      "id": "93cb1afd-7f3f-4069-8f56-5b391e8b1ed6",
+      "title": "work on overall font selections",
+      "done": false,
+      "createdAt": 1789089607141,
+      "updatedAt": 1789089607141,
+      "order": 7
+    }
+  ]
+}
